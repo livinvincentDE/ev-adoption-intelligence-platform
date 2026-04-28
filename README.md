@@ -27,7 +27,9 @@ C --> D[Gold Layer]
 D --> E[Platinum Insights]
 E --> F[Streamlit Dashboard]
 ```
+## 🧩 Architecture Diagram
 
+![EV Architecture](images/architecture.png)
 ---
 
 ## ⚙️ Tech Stack
