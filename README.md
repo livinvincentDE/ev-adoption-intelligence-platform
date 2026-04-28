@@ -27,10 +27,6 @@ C --> D[Gold Layer]
 D --> E[Platinum Insights]
 E --> F[Streamlit Dashboard]
 ```
-## 🧩 Architecture Diagram
-
-![EV Architecture](images/architecture.png)
----
 
 ## ⚙️ Tech Stack
 
@@ -41,9 +37,12 @@ E --> F[Streamlit Dashboard]
 | Transformation  | SQL               |
 | Visualization   | Streamlit         |
 | Dev Environment | GitHub Codespaces |
-
 ---
 
+## 🧩 Control Flow on Tech Stack
+
+![EV Architecture](images/architecture.png)
+---
 ## 🚀 Features
 
 ✨ Modular medallion pipeline
