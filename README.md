@@ -144,10 +144,6 @@ ev_project/
 ## ✅ Data Quality Checks
 ✔ Row count validation across all layers
 ✔ Null value checks on critical columns
-✔ Gold layer business logic validation
-✔ Platinum insights accuracy verification
-✔ Column-level lineage tracking
-✔ Custom Bruin quality rules enforcement
 ---
 ## 🎯 What This Project Demonstrates
 * Enterprise-grade data engineering pipeline design
