@@ -1,4 +1,2 @@
-assets:
-  - name: ev_adoption_pipeline
-    type: python
-    path: run_pipeline.py
+name: ev-adoption-intelligence-pipeline
+concurrency: 1
