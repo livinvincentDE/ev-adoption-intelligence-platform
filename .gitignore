@@ -3,3 +3,19 @@ logs/runs
 logs/*.log
 __pycache__/
 *.py[cod]
+
+# DuckDB
+*.duckdb
+
+# Data files
+assets/data/
+
+# Debug files
+debug_*.py
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.env
