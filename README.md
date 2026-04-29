@@ -36,7 +36,7 @@ G -.-> E
 | Dev Environment | GitHub Codespaces | Cloud-based development          |
 ---
 ## 🧩 Control Flow on Tech Stack
-![EV Architecture](images/architecture.png)
+![EV Architecture](images/dashboard.png)
 ---
 ## 🚀 Features
 ✨ Modular medallion pipeline
@@ -53,10 +53,7 @@ G -.-> E
 📈 Strong upward trend in recent years
 ---
 ## 📸 Dashboard Preview
-> *(Add screenshot here for maximum impact)*
-```bash
-/images/dashboard.png
-```
+images/dashboard.png
 ---
 ## ▶️ How to Run
 
@@ -161,14 +158,6 @@ ev_project/
 * Dashboard-driven insights
 * CI/CD integration with data validation
 * Modern data stack best practices
----
-## 📌 Future Improvements
-🚀 CI/CD pipeline integration with GitHub Actions
-☁️ Cloud deployment (Azure / AWS / GCP)
-⚡ Real-time streaming ingestion with Bruin connectors
-📊 Advanced dashboard analytics with ML models
-🔔 Real-time alerting on data quality issues
-📱 Mobile-friendly dashboard interface
 ---
 ## 🛠️ Development Guide
 
