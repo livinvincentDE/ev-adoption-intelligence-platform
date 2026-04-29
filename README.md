@@ -47,57 +47,6 @@ G -.-> E
 **🎯 Bruin-powered orchestration with 200+ data connectors**
 ---
 
-## 🔧 Bruin Data Pipeline Integration
-
-This project leverages **Bruin**, an open-source, end-to-end data platform, for robust pipeline orchestration and data quality management.
-
-### 📊 Data Ingestion & Connectivity
-- **200+ Data Connectors**: Seamlessly integrate EV data from multiple sources and platforms
-- **CLI-Based Ingestion**: Simple command-line tools to import and manage data from any source to any destination
-- **Multi-Source Support**: Handle diverse data formats and sources effortlessly
-
-### 🔧 Flexible Transformation Layer
-- **SQL & Python Support**: Write transformations in SQL for efficiency or Python for complex logic
-- **Python Environments**: Isolated, version-controlled Python environments with automatic dependency management
-- **Jinja Template Support**: Reduce code repetition and improve maintainability with templating
-- **Native Integration**: SQL and Python assets coexist in the same DAG with automatic dependency resolution
-
-### ✅ Built-In Data Quality & Governance
-- **Automated Quality Checks**: Define and enforce data quality rules across all assets
-- **Column-Level Lineage**: Track data flow and dependencies at the column level for complete visibility
-- **Custom Checks**: Create custom SQL-based quality validations tailored to EV data requirements
-- **End-to-End Observability**: Monitor pipelines with comprehensive logging and tracing
-
-### 🔐 Security & Credential Management
-- **Secure Secrets Handling**: Manage credentials safely through `.bruin.yml` configuration
-- **Environment-Based Execution**: Run pipelines against staging or production environments seamlessly
-- **No Hardcoded Credentials**: Automatic injection of secrets as environment variables
-
-### 📦 Deployment Flexibility
-- **Self-Hosted or Managed Cloud**: Choose to host on your infrastructure or use managed Bruin Cloud
-- **No Vendor Lock-In**: Open-source with Apache License and MIT licensing available
-- **Multi-Environment Support**: Deploy across development, staging, and production with configuration
-- **Local & Remote Execution**: Run pipelines locally for development or on managed infrastructure
-
-### 🎯 Developer Experience
-- **VS Code Extension**: Visual pipeline development with built-in data catalog and lineage visualization
-- **Version Control Integration**: Code-first approach enables full Git integration and CI/CD workflows
-- **Local Development**: Run and test pipelines locally before deployment
-- **Comprehensive CLI**: Powerful command-line interface for all pipeline operations
-
-### 🤖 AI-Powered Analytics
-- **Automated Documentation**: AI-generated descriptions and metadata for data assets
-- **Intelligent Analysis**: Automated insights and anomaly detection in EV adoption trends
-- **Data-Driven Checks**: ML-powered quality checks based on historical patterns
-
-### 💡 Key Benefits for EV Adoption Intelligence
-- **Reduced Complexity**: Single unified framework eliminates tool sprawl
-- **Faster Time-to-Insight**: Accelerated data processing and analysis pipelines
-- **Scalability**: Handle growing EV data volumes with ease
-- **Community-Driven**: Active open-source community with continuous improvements
-- **Production-Ready**: Enterprise-grade reliability with built-in observability
-
----
 ## 📊 Key Insights
 🔥 EV adoption surged significantly post-2017
 🚀 Peak adoption observed in **2022**
@@ -243,6 +192,55 @@ bruin diff --environment staging,production
 bruin connections test --name duckdb
 ```
 
+## 🔧 Bruin Data Pipeline Integration
+
+This project leverages **Bruin**, an open-source, end-to-end data platform, for robust pipeline orchestration and data quality management.
+
+### 📊 Data Ingestion & Connectivity
+- **200+ Data Connectors**: Seamlessly integrate EV data from multiple sources and platforms
+- **CLI-Based Ingestion**: Simple command-line tools to import and manage data from any source to any destination
+- **Multi-Source Support**: Handle diverse data formats and sources effortlessly
+
+### 🔧 Flexible Transformation Layer
+- **SQL & Python Support**: Write transformations in SQL for efficiency or Python for complex logic
+- **Python Environments**: Isolated, version-controlled Python environments with automatic dependency management
+- **Jinja Template Support**: Reduce code repetition and improve maintainability with templating
+- **Native Integration**: SQL and Python assets coexist in the same DAG with automatic dependency resolution
+
+### ✅ Built-In Data Quality & Governance
+- **Automated Quality Checks**: Define and enforce data quality rules across all assets
+- **Column-Level Lineage**: Track data flow and dependencies at the column level for complete visibility
+- **Custom Checks**: Create custom SQL-based quality validations tailored to EV data requirements
+- **End-to-End Observability**: Monitor pipelines with comprehensive logging and tracing
+
+### 🔐 Security & Credential Management
+- **Secure Secrets Handling**: Manage credentials safely through `.bruin.yml` configuration
+- **Environment-Based Execution**: Run pipelines against staging or production environments seamlessly
+- **No Hardcoded Credentials**: Automatic injection of secrets as environment variables
+
+### 📦 Deployment Flexibility
+- **Self-Hosted or Managed Cloud**: Choose to host on your infrastructure or use managed Bruin Cloud
+- **No Vendor Lock-In**: Open-source with Apache License and MIT licensing available
+- **Multi-Environment Support**: Deploy across development, staging, and production with configuration
+- **Local & Remote Execution**: Run pipelines locally for development or on managed infrastructure
+
+### 🎯 Developer Experience
+- **VS Code Extension**: Visual pipeline development with built-in data catalog and lineage visualization
+- **Version Control Integration**: Code-first approach enables full Git integration and CI/CD workflows
+- **Local Development**: Run and test pipelines locally before deployment
+- **Comprehensive CLI**: Powerful command-line interface for all pipeline operations
+
+### 🤖 AI-Powered Analytics
+- **Automated Documentation**: AI-generated descriptions and metadata for data assets
+- **Intelligent Analysis**: Automated insights and anomaly detection in EV adoption trends
+- **Data-Driven Checks**: ML-powered quality checks based on historical patterns
+
+### 💡 Key Benefits for EV Adoption Intelligence
+- **Reduced Complexity**: Single unified framework eliminates tool sprawl
+- **Faster Time-to-Insight**: Accelerated data processing and analysis pipelines
+- **Scalability**: Handle growing EV data volumes with ease
+- **Community-Driven**: Active open-source community with continuous improvements
+- **Production-Ready**: Enterprise-grade reliability with built-in observability
 ---
 ## 📚 Resources
 - [Bruin Documentation](https://getbruin.com/docs)
@@ -256,7 +254,3 @@ bruin connections test --name duckdb
 Senior Data Engineer
 🔗 [GitHub](https://github.com/livinvincentDE)
 🔗 [LinkedIn](https://linkedin.com/in/livinvincent)
-
----
-## 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
